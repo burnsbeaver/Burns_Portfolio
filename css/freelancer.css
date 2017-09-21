@@ -100,6 +100,9 @@ section.success {
     .scroll-top .btn:focus {
       outline: none; }
 
+#email-tag {
+  color: inherit; }
+
 #mainNav {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -168,6 +171,8 @@ header.masthead {
     display: block;
     margin: 0 auto 20px; }
   header.masthead #profile-image {
+    height: 50vh;
+    width: 50vh;
     border-radius: 50px;
     border: solid white 5px; }
   header.masthead .intro-text .name {
@@ -226,6 +231,9 @@ header.masthead {
 
 #portfolio * {
   z-index: 2; }
+
+.project-image {
+  height: 35vh; }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -348,6 +356,9 @@ footer {
   footer .footer-below {
     padding: 25px 0;
     background-color: #0191c8; }
+
+#email-tag {
+  color: white; }
 
 .btn-outline {
   font-size: 20px;

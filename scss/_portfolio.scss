@@ -37,7 +37,7 @@
           h4 {
             margin: 0;
           }
-          
+
         }
       }
     }
@@ -46,6 +46,12 @@
     z-index: 2;
   }
 }
+
+.project-image {
+  // width: 52vh;
+  height: 35vh;
+}
+
 @media(min-width:767px) {
   #portfolio {
     .portfolio-item {
